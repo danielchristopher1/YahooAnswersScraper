@@ -8,7 +8,11 @@ Python script that uses beautiful soup to scrape a yahoo answers page and return
 
 # Example
 
-    from scraper import YahooScraper
-    scraper = YahooScraper()
-    answers = scraper.get_answers('https://answers.yahoo.com/question/index?qid=20160625002028AACkxqK')
-    print answers
+```python
+from scraper import YahooScraper    
+
+scraper = YahooScraper()
+answers = scraper.get_answers('https://answers.yahoo.com/question/index?qid=20160625002028AACkxqK')
+
+print answers
+```
