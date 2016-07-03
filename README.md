@@ -7,8 +7,8 @@ Python script that uses beautiful soup to scrape a yahoo answers page and return
 - pip install requests
 
 # Example
-from scraper import YahooScraper
 
+    from scraper import YahooScraper
     scraper = YahooScraper()
     answers = scraper.get_answers('https://answers.yahoo.com/question/index?qid=20160625002028AACkxqK')
     print answers
